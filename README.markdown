@@ -6,9 +6,11 @@ OCFramework is a simple template to help you create compilable binaries that can
 
 Just clone the repo, then run the following:
 
-./setup.sh MyNewFramework
+    ./setup.sh MyNewFramework
 
-cd ../MyNewFramework
-./build.sh release
+Then
+
+    cd ../MyNewFramework
+    ./build.sh release
 
 All done. The framework is output in the artifacts directory. Enjoy.
