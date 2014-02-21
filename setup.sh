@@ -20,3 +20,4 @@ mv src/main/OCFramework-Info.plist src/main/$PROJECT_NAME-Info.plist
 mv src/main/OCFramework-Prefix.pch src/main/$PROJECT_NAME-Prefix.pch
 rm README.markdown
 mv README-project.markdown README.markdown
+rm -rf .git
