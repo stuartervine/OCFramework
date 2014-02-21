@@ -18,3 +18,5 @@ sed -i.bak "s/{{FRAMEWORK_NAME}}/${PROJECT_NAME}/g" OCFramework.xcodeproj/projec
 mv OCFramework.xcodeproj $PROJECT_NAME.xcodeproj
 mv src/main/OCFramework-Info.plist src/main/$PROJECT_NAME-Info.plist
 mv src/main/OCFramework-Prefix.pch src/main/$PROJECT_NAME-Prefix.pch
+rm README.markdown
+mv README-project.markdown README.markdown
