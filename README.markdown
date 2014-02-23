@@ -14,3 +14,9 @@ Then
     ./build.sh release
 
 All done. The framework is output in the artifacts directory. Enjoy.
+
+#Alternatives
+
+There are a number of other ways to create frameworks for iOS, Jeff Verkoeyen has explained these is detail on his iOS-Framework project: https://github.com/jverkoey/iOS-Framework
+
+He shows the details required to create a framework in Xcode for iOS by hand, and the 'Fake' approach.
